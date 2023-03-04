@@ -1,0 +1,64 @@
+
+.wrapperCard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.todoCard {
+    width: 500px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 4px 4px 20px rgba(185, 186, 185, 0.75);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.done {
+    text-decoration: line-through;
+    width: 500px;
+    height: 80px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 20px rgba(185, 186, 185, 0.75);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.editBtn {
+    margin-top: 10px;
+    /*margin-bottom: 10px;*/
+    width: 80px;
+    height: 27px;
+    border-radius: 7px;
+    background-color: lightgrey;
+}
+
+.doneBtn{
+    /*margin-top: 10px;*/
+    /*margin-bottom: 10px;*/
+    width: 80px;
+    height: 27px;
+    border-radius: 7px;
+    background-color: mediumseagreen;
+
+}
+.deleteBtn{
+    width: 80px;
+    height: 27px;
+    border-radius: 7px;
+    background-color: darkred;
+    color: antiquewhite;
+}
+.editIcon {
+    width: 12px;
+    height: 12px;
+}
